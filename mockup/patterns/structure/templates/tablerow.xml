@@ -8,8 +8,8 @@
       <%- Title %>
     </a>
   </div>
-  <% if(attributes["getIcon"] ){ %>
-  <img class="image-<%- iconSize %> pull-right" src="<%- getURL %>/@@images/image/<%- iconSize %>">
+  <% if(attributes["getIcon"] && ( thumbSize != 'none') ){ %>
+  <img class="image-<%- thumbSize %> pull-right" src="<%- getURL %>/@@images/image/<%- thumbSize %>">
   <% } %>
 </td>
 

@@ -48,7 +48,6 @@ define([
 
       activeColumnsCookie: 'activeColumns',
 
-      iconSize: 'thumb',
 
       /*
         As the options operate on a merging basis per new attribute
