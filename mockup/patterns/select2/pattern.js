@@ -116,7 +116,8 @@ define([
             if (seldefaults[this]) {
               text = seldefaults[this];
             }
-            data.push({id: utils.escapeHTML(this), text: utils.escapeHTML(text)});
+            // data.push({id: utils.escapeHTML(this), text: utils.escapeHTML(text)});
+            data.push({id: this, text: text});
           });
           callback(data);
         };
